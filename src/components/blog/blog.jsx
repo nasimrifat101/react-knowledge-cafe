@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 
 const Blog = ({ blog, handleBookmark, handleMarkAsRead }) => {
   let {
+    id,
     title,
     cover,
     reading_time,
@@ -27,7 +28,7 @@ const Blog = ({ blog, handleBookmark, handleMarkAsRead }) => {
             <p>{posted_date}</p>
           </div>
         </div>
-        <div>
+        <div className="flex justify-center items-center ">
           <span>{reading_time} min read</span>
           <button
             onClick={() => handleBookmark(blog)}
@@ -46,7 +47,7 @@ const Blog = ({ blog, handleBookmark, handleMarkAsRead }) => {
         ))}
       </p>
       <button
-        onClick={() => handleMarkAsRead(reading_time)}
+        onClick={() => handleMarkAsRead(reading_time, id)}
         className="text-purple-300 font-bold underline"
       >
         Mark As Read

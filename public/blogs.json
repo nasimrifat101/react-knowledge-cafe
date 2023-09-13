@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "cover_img": "https://ibb.co/TwRmKg4",
+      "title": "Exploring the Mysteries of Quantum Entanglement",
+      "author": "Dr. Samantha Smith",
+      "author_img": "https://ibb.co/P449FL2",
+      "posted_date": "2023-09-13",
+      "reading_time": "10 minutes",
+      "hashtags": ["quantum", "entanglement", "physics"]
+    },
+    {
+      "id": 2,
+      "cover_img": "https://ibb.co/ZhDdxPp",
+      "title": "The Art of Abstract Painting",
+      "author": "Emily Johnson",
+      "author_img": "https://ibb.co/QQLSymN",
+      "posted_date": "2023-09-12",
+      "reading_time": "8 minutes",
+      "hashtags": ["art", "painting", "creativity"]
+    },
+    {
+      "id": 3,
+      "cover_img": "https://ibb.co/d6cXyvL",
+      "title": "Mastering the Guitar: Tips for Beginners",
+      "author": "John Davis",
+      "author_img": "https://ibb.co/3BgW4ds",
+      "posted_date": "2023-09-11",
+      "reading_time": "15 minutes",
+      "hashtags": ["music", "guitar", "beginners"]
+    },
+    {
+      "id": 4,
+      "cover_img": "https://ibb.co/fYDWDtb",
+      "title": "Discovering Hidden Gems: Traveling Off the Beaten Path",
+      "author": "Ella Roberts",
+      "author_img": "https://ibb.co/GPhdF1n",
+      "posted_date": "2023-09-10",
+      "reading_time": "12 minutes",
+      "hashtags": ["travel", "adventure", "exploration"]
+    }
+  ]
+  
